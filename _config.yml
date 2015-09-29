@@ -3,7 +3,7 @@ title: Dig The Digit
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
+baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: taras_y_sereda 
 github_username:  taras-sereda
