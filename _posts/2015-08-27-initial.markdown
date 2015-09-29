@@ -1,9 +1,0 @@
----
-layout: post
-title: "Initial page"
-excerpt: "Solving reccurences with master method"
-date: 2015-08-27 13:53:00
----
-
-Hi, here will be the article about solving **reccurences**.
-
