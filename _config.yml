@@ -1,17 +1,67 @@
-# Site settings
-title: Dig The Digit
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: taras_y_sereda 
-github_username:  taras-sereda
-facebook_username:  mister.sereda
 
-# Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: pretty
+##########################################
+#     Change these variables !important
+##########################################
+
+owner: Taras Sereda
+
+title: ":dig the digits:"
+
+# Set subtitle e.g "blog"
+subtitle: 
+
+# Following needed for disqus integration
+
+# Set your 'disqus' account name
+disqus: tarassereda
+
+# Uncomment if deployed locally
+# url: https://localhost:4000
+
+# Set your host if deployed not locally
+# For example "https://yourGitHub.github.io"
+url: "https://taras-sereda.github.io"
+
+# Change this to your base URL starting with forward slash if site is in gh-pages branch
+# For example /branchName
+baseurl:
+
+# Change this to your google analytics ID
+google_analytics:
+
+# Change this to your http://getsimpleform.com public key
+contact_PK:
+
+##########################################
+#          Optional variables
+##########################################
+
+
+# Set maximum posts per page
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Set permalink
+permalink: /:categories/:title
+
+# Set excerpt separator
+truncate_size: 30
+
+##########################################
+#          Do not change these variables
+##########################################
+
+include:  ["pages"]
+
+sass:
+  sass_dir: _sass
+sass:
+    style: compressed
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap # add /sitemap.xml file
+  - jekyll-seo-tag # seo meta tag & json-ld
+  - jekyll-feed # add /feed.xml file
+
+paginate_path: /pages/page:num
